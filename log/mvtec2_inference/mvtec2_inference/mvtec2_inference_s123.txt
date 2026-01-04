@@ -1,0 +1,29 @@
+[test_mvtec2.py][line:76][INFO] --------args----------
+[test_mvtec2.py][line:78][INFO] clip_download_dir: ./download/clip/
+[test_mvtec2.py][line:78][INFO] data_dir: /root/autodl-tmp/datasets
+[test_mvtec2.py][line:78][INFO] dataset: mvtec
+[test_mvtec2.py][line:78][INFO] model: ViT-L/14@336px
+[test_mvtec2.py][line:78][INFO] batch_size: 8
+[test_mvtec2.py][line:78][INFO] lr: 0.0001
+[test_mvtec2.py][line:78][INFO] alpha: 0.1
+[test_mvtec2.py][line:78][INFO] epochs: 2
+[test_mvtec2.py][line:78][INFO] prompt_len: 12
+[test_mvtec2.py][line:78][INFO] category: None
+[test_mvtec2.py][line:78][INFO] fewshot: 0
+[test_mvtec2.py][line:78][INFO] seed: 123
+[test_mvtec2.py][line:78][INFO] log_dir: ./log/mvtec2_inference/mvtec2_inference
+[test_mvtec2.py][line:78][INFO] suffix: defect
+[test_mvtec2.py][line:78][INFO] img_size: 518
+[test_mvtec2.py][line:78][INFO] feature_layers: [6, 12, 18, 24]
+[test_mvtec2.py][line:78][INFO] test_dataset: ['mvtec2']
+[test_mvtec2.py][line:78][INFO] weight: ./weight
+[test_mvtec2.py][line:78][INFO] vis: 1
+[test_mvtec2.py][line:78][INFO] vis_dir: /root/autodl-tmp/result/
+[test_mvtec2.py][line:78][INFO] memory_layers: [6, 12, 18, 24]
+[test_mvtec2.py][line:78][INFO] lambda1: 1
+[test_mvtec2.py][line:78][INFO] lambda2: 1
+[test_mvtec2.py][line:79][INFO] --------args----------
+
+[test_mvtec2.py][line:168][INFO] Using device: cuda
+[test_mvtec2.py][line:236][INFO] Loading weights from ./weight
+[test_mvtec2.py][line:280][INFO] ---------------------------mvtec2------------------------------

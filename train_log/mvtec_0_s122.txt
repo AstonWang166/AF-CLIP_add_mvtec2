@@ -1,0 +1,112 @@
+[main.py][line:67][INFO] --------args----------
+[main.py][line:69][INFO] clip_download_dir: ./download/clip/
+[main.py][line:69][INFO] data_dir: /root/autodl-tmp/datasets
+[main.py][line:69][INFO] dataset: mvtec
+[main.py][line:69][INFO] model: ViT-L/14@336px
+[main.py][line:69][INFO] batch_size: 8
+[main.py][line:69][INFO] lr: 0.0001
+[main.py][line:69][INFO] alpha: 0.1
+[main.py][line:69][INFO] epochs: 2
+[main.py][line:69][INFO] prompt_len: 12
+[main.py][line:69][INFO] category: None
+[main.py][line:69][INFO] fewshot: 0
+[main.py][line:69][INFO] seed: 122
+[main.py][line:69][INFO] log_dir: ./train_log
+[main.py][line:69][INFO] suffix: defect
+[main.py][line:69][INFO] img_size: 518
+[main.py][line:69][INFO] feature_layers: [6, 12, 18, 24]
+[main.py][line:69][INFO] test_dataset: []
+[main.py][line:69][INFO] weight: None
+[main.py][line:69][INFO] vis: 0
+[main.py][line:69][INFO] vis_dir: ./vis_results/
+[main.py][line:69][INFO] memory_layers: [6, 12, 18, 24]
+[main.py][line:69][INFO] lambda1: 1
+[main.py][line:69][INFO] lambda2: 1
+[main.py][line:70][INFO] --------args----------
+
+[main.py][line:183][INFO] Epoch: 1/2, Loss: 0.161204
+[main.py][line:183][INFO] Epoch: 2/2, Loss: 0.071308
+[main.py][line:185][INFO] ---------------------------visa------------------------------
+[utils.py][line:302][INFO] Category candle: Sample_CLS_AUROC: 0.881000 Sample_CLS_AP: 0.911096 Sample_CLS_max-F1: 0.804348 Pixel_AUROC: 0.989773 Pixel_AP: 0.232677 Pixel_max-F1: 0.367859 Pixel_PRO: 0.949098 
+[utils.py][line:302][INFO] Category capsules: Sample_CLS_AUROC: 0.928833 Sample_CLS_AP: 0.961735 Sample_CLS_max-F1: 0.887755 Pixel_AUROC: 0.982221 Pixel_AP: 0.426438 Pixel_max-F1: 0.515711 Pixel_PRO: 0.939999 
+[utils.py][line:302][INFO] Category cashew: Sample_CLS_AUROC: 0.932400 Sample_CLS_AP: 0.968887 Sample_CLS_max-F1: 0.909091 Pixel_AUROC: 0.956638 Pixel_AP: 0.327847 Pixel_max-F1: 0.394734 Pixel_PRO: 0.930723 
+[utils.py][line:302][INFO] Category chewinggum: Sample_CLS_AUROC: 0.988400 Sample_CLS_AP: 0.994714 Sample_CLS_max-F1: 0.964467 Pixel_AUROC: 0.993956 Pixel_AP: 0.747762 Pixel_max-F1: 0.681794 Pixel_PRO: 0.920130 
+[utils.py][line:302][INFO] Category fryum: Sample_CLS_AUROC: 0.933600 Sample_CLS_AP: 0.968403 Sample_CLS_max-F1: 0.915423 Pixel_AUROC: 0.953690 Pixel_AP: 0.311359 Pixel_max-F1: 0.357166 Pixel_PRO: 0.887512 
+[utils.py][line:302][INFO] Category macaroni1: Sample_CLS_AUROC: 0.856800 Sample_CLS_AP: 0.881973 Sample_CLS_max-F1: 0.783019 Pixel_AUROC: 0.993752 Pixel_AP: 0.202214 Pixel_max-F1: 0.278049 Pixel_PRO: 0.944383 
+[utils.py][line:302][INFO] Category macaroni2: Sample_CLS_AUROC: 0.698400 Sample_CLS_AP: 0.677337 Sample_CLS_max-F1: 0.699115 Pixel_AUROC: 0.980041 Pixel_AP: 0.041854 Pixel_max-F1: 0.121835 Pixel_PRO: 0.853140 
+[utils.py][line:302][INFO] Category pcb1: Sample_CLS_AUROC: 0.868900 Sample_CLS_AP: 0.875738 Sample_CLS_max-F1: 0.823529 Pixel_AUROC: 0.952302 Pixel_AP: 0.219353 Pixel_max-F1: 0.281326 Pixel_PRO: 0.807863 
+[utils.py][line:302][INFO] Category pcb2: Sample_CLS_AUROC: 0.785200 Sample_CLS_AP: 0.789043 Sample_CLS_max-F1: 0.747899 Pixel_AUROC: 0.926402 Pixel_AP: 0.108918 Pixel_max-F1: 0.196986 Pixel_PRO: 0.788167 
+[utils.py][line:302][INFO] Category pcb3: Sample_CLS_AUROC: 0.750000 Sample_CLS_AP: 0.775838 Sample_CLS_max-F1: 0.733333 Pixel_AUROC: 0.883284 Pixel_AP: 0.038515 Pixel_max-F1: 0.091320 Pixel_PRO: 0.809532 
+[utils.py][line:302][INFO] Category pcb4: Sample_CLS_AUROC: 0.961089 Sample_CLS_AP: 0.959233 Sample_CLS_max-F1: 0.916667 Pixel_AUROC: 0.958720 Pixel_AP: 0.273083 Pixel_max-F1: 0.342836 Pixel_PRO: 0.893432 
+[utils.py][line:302][INFO] Category pipe_fryum: Sample_CLS_AUROC: 0.988600 Sample_CLS_AP: 0.994334 Sample_CLS_max-F1: 0.961165 Pixel_AUROC: 0.975952 Pixel_AP: 0.310641 Pixel_max-F1: 0.414242 Pixel_PRO: 0.901661 
+[utils.py][line:306][INFO] Average: Sample_CLS_AUROC: 0.881102 Sample_CLS_AP: 0.896528 Sample_CLS_max-F1: 0.845484 Pixel_AUROC: 0.962227 Pixel_AP: 0.270055 Pixel_max-F1: 0.336988 Pixel_PRO: 0.885470 
+[main.py][line:187][INFO] -------------------------------------------------------------
+[main.py][line:185][INFO] ---------------------------btad------------------------------
+[utils.py][line:302][INFO] Category 01: Sample_CLS_AUROC: 0.962099 Sample_CLS_AP: 0.986096 Sample_CLS_max-F1: 0.948454 Pixel_AUROC: 0.902111 Pixel_AP: 0.505035 Pixel_max-F1: 0.551438 Pixel_PRO: 0.736436 
+[utils.py][line:302][INFO] Category 02: Sample_CLS_AUROC: 0.882833 Sample_CLS_AP: 0.981490 Sample_CLS_max-F1: 0.937799 Pixel_AUROC: 0.954646 Pixel_AP: 0.613840 Pixel_max-F1: 0.612775 Pixel_PRO: 0.621144 
+[utils.py][line:302][INFO] Category 03: Sample_CLS_AUROC: 0.956402 Sample_CLS_AP: 0.870124 Sample_CLS_max-F1: 0.833333 Pixel_AUROC: 0.952557 Pixel_AP: 0.110489 Pixel_max-F1: 0.223477 Pixel_PRO: 0.906806 
+[utils.py][line:306][INFO] Average: Sample_CLS_AUROC: 0.933778 Sample_CLS_AP: 0.945904 Sample_CLS_max-F1: 0.906529 Pixel_AUROC: 0.936438 Pixel_AP: 0.409788 Pixel_max-F1: 0.462563 Pixel_PRO: 0.754795 
+[main.py][line:187][INFO] -------------------------------------------------------------
+[main.py][line:185][INFO] ---------------------------dtd------------------------------
+[utils.py][line:302][INFO] Category Blotchy_099: Sample_CLS_AUROC: 1.000000 Sample_CLS_AP: 1.000000 Sample_CLS_max-F1: 1.000000 Pixel_AUROC: 0.992929 Pixel_AP: 0.723669 Pixel_max-F1: 0.651554 Pixel_PRO: 0.946036 
+[utils.py][line:302][INFO] Category Fibrous_183: Sample_CLS_AUROC: 0.980000 Sample_CLS_AP: 0.995100 Sample_CLS_max-F1: 0.963855 Pixel_AUROC: 0.993620 Pixel_AP: 0.752379 Pixel_max-F1: 0.671068 Pixel_PRO: 0.971892 
+[utils.py][line:302][INFO] Category Marbled_078: Sample_CLS_AUROC: 0.993750 Sample_CLS_AP: 0.998468 Sample_CLS_max-F1: 0.981595 Pixel_AUROC: 0.992199 Pixel_AP: 0.668986 Pixel_max-F1: 0.623138 Pixel_PRO: 0.967532 
+[utils.py][line:302][INFO] Category Matted_069: Sample_CLS_AUROC: 0.995570 Sample_CLS_AP: 0.998906 Sample_CLS_max-F1: 0.981366 Pixel_AUROC: 0.978167 Pixel_AP: 0.377196 Pixel_max-F1: 0.416710 Pixel_PRO: 0.858712 
+[utils.py][line:302][INFO] Category Mesh_114: Sample_CLS_AUROC: 0.902431 Sample_CLS_AP: 0.961754 Sample_CLS_max-F1: 0.881988 Pixel_AUROC: 0.985031 Pixel_AP: 0.639002 Pixel_max-F1: 0.601393 Pixel_PRO: 0.890846 
+[utils.py][line:302][INFO] Category Perforated_037: Sample_CLS_AUROC: 0.960000 Sample_CLS_AP: 0.990785 Sample_CLS_max-F1: 0.955414 Pixel_AUROC: 0.965298 Pixel_AP: 0.619689 Pixel_max-F1: 0.632221 Pixel_PRO: 0.931487 
+[utils.py][line:302][INFO] Category Stratified_154: Sample_CLS_AUROC: 0.990000 Sample_CLS_AP: 0.997607 Sample_CLS_max-F1: 0.974684 Pixel_AUROC: 0.994483 Pixel_AP: 0.765556 Pixel_max-F1: 0.715005 Pixel_PRO: 0.938714 
+[utils.py][line:302][INFO] Category Woven_001: Sample_CLS_AUROC: 1.000000 Sample_CLS_AP: 1.000000 Sample_CLS_max-F1: 1.000000 Pixel_AUROC: 0.998405 Pixel_AP: 0.794617 Pixel_max-F1: 0.715966 Pixel_PRO: 0.986835 
+[utils.py][line:302][INFO] Category Woven_068: Sample_CLS_AUROC: 0.939439 Sample_CLS_AP: 0.965937 Sample_CLS_max-F1: 0.895706 Pixel_AUROC: 0.988582 Pixel_AP: 0.541715 Pixel_max-F1: 0.504865 Pixel_PRO: 0.955805 
+[utils.py][line:302][INFO] Category Woven_104: Sample_CLS_AUROC: 0.998125 Sample_CLS_AP: 0.999531 Sample_CLS_max-F1: 0.993789 Pixel_AUROC: 0.985485 Pixel_AP: 0.708817 Pixel_max-F1: 0.661511 Pixel_PRO: 0.962981 
+[utils.py][line:302][INFO] Category Woven_125: Sample_CLS_AUROC: 1.000000 Sample_CLS_AP: 1.000000 Sample_CLS_max-F1: 1.000000 Pixel_AUROC: 0.995459 Pixel_AP: 0.732186 Pixel_max-F1: 0.687383 Pixel_PRO: 0.946889 
+[utils.py][line:302][INFO] Category Woven_127: Sample_CLS_AUROC: 0.960313 Sample_CLS_AP: 0.974839 Sample_CLS_max-F1: 0.948718 Pixel_AUROC: 0.955822 Pixel_AP: 0.632746 Pixel_max-F1: 0.639872 Pixel_PRO: 0.942296 
+[utils.py][line:306][INFO] Average: Sample_CLS_AUROC: 0.976636 Sample_CLS_AP: 0.990244 Sample_CLS_max-F1: 0.964760 Pixel_AUROC: 0.985457 Pixel_AP: 0.663047 Pixel_max-F1: 0.626724 Pixel_PRO: 0.941669 
+[main.py][line:187][INFO] -------------------------------------------------------------
+[main.py][line:185][INFO] ---------------------------dagm------------------------------
+[utils.py][line:302][INFO] Category Class1: Sample_CLS_AUROC: 0.971915 Sample_CLS_AP: 0.930049 Sample_CLS_max-F1: 0.871429 Pixel_AUROC: 0.937947 Pixel_AP: 0.388725 Pixel_max-F1: 0.421085 Pixel_PRO: 0.839950 
+[utils.py][line:302][INFO] Category Class2: Sample_CLS_AUROC: 1.000000 Sample_CLS_AP: 1.000000 Sample_CLS_max-F1: 1.000000 Pixel_AUROC: 0.997021 Pixel_AP: 0.580107 Pixel_max-F1: 0.573281 Pixel_PRO: 0.992923 
+[utils.py][line:302][INFO] Category Class3: Sample_CLS_AUROC: 1.000000 Sample_CLS_AP: 1.000000 Sample_CLS_max-F1: 1.000000 Pixel_AUROC: 0.953700 Pixel_AP: 0.649126 Pixel_max-F1: 0.652251 Pixel_PRO: 0.938596 
+[utils.py][line:302][INFO] Category Class4: Sample_CLS_AUROC: 0.835726 Sample_CLS_AP: 0.405284 Sample_CLS_max-F1: 0.443182 Pixel_AUROC: 0.946669 Pixel_AP: 0.058281 Pixel_max-F1: 0.105066 Pixel_PRO: 0.820561 
+[utils.py][line:302][INFO] Category Class5: Sample_CLS_AUROC: 1.000000 Sample_CLS_AP: 1.000000 Sample_CLS_max-F1: 1.000000 Pixel_AUROC: 0.991159 Pixel_AP: 0.686333 Pixel_max-F1: 0.666205 Pixel_PRO: 0.969657 
+[utils.py][line:302][INFO] Category Class6: Sample_CLS_AUROC: 1.000000 Sample_CLS_AP: 1.000000 Sample_CLS_max-F1: 1.000000 Pixel_AUROC: 0.996660 Pixel_AP: 0.865088 Pixel_max-F1: 0.791897 Pixel_PRO: 0.985852 
+[utils.py][line:302][INFO] Category Class7: Sample_CLS_AUROC: 1.000000 Sample_CLS_AP: 1.000000 Sample_CLS_max-F1: 1.000000 Pixel_AUROC: 0.930088 Pixel_AP: 0.682221 Pixel_max-F1: 0.685096 Pixel_PRO: 0.911756 
+[utils.py][line:302][INFO] Category Class8: Sample_CLS_AUROC: 0.987680 Sample_CLS_AP: 0.955039 Sample_CLS_max-F1: 0.911661 Pixel_AUROC: 0.955412 Pixel_AP: 0.252011 Pixel_max-F1: 0.315332 Pixel_PRO: 0.860725 
+[utils.py][line:302][INFO] Category Class9: Sample_CLS_AUROC: 0.955007 Sample_CLS_AP: 0.822028 Sample_CLS_max-F1: 0.745342 Pixel_AUROC: 0.973363 Pixel_AP: 0.027174 Pixel_max-F1: 0.077909 Pixel_PRO: 0.916489 
+[utils.py][line:302][INFO] Category Class10: Sample_CLS_AUROC: 0.994080 Sample_CLS_AP: 0.969391 Sample_CLS_max-F1: 0.922034 Pixel_AUROC: 0.993028 Pixel_AP: 0.488779 Pixel_max-F1: 0.512159 Pixel_PRO: 0.975000 
+[utils.py][line:306][INFO] Average: Sample_CLS_AUROC: 0.974441 Sample_CLS_AP: 0.908179 Sample_CLS_max-F1: 0.889365 Pixel_AUROC: 0.967505 Pixel_AP: 0.467784 Pixel_max-F1: 0.480028 Pixel_PRO: 0.921151 
+[main.py][line:187][INFO] -------------------------------------------------------------
+[main.py][line:185][INFO] ---------------------------isic------------------------------
+[utils.py][line:302][INFO] Category isic: Pixel_AUROC: 0.953346 Pixel_AP: 0.899664 Pixel_max-F1: 0.821333 Pixel_PRO: 0.880482 
+[utils.py][line:306][INFO] Average: Pixel_AUROC: 0.953346 Pixel_AP: 0.899664 Pixel_max-F1: 0.821333 Pixel_PRO: 0.880482 
+[main.py][line:187][INFO] -------------------------------------------------------------
+[main.py][line:185][INFO] ---------------------------clinic------------------------------
+[utils.py][line:302][INFO] Category clinic: Pixel_AUROC: 0.867755 Pixel_AP: 0.365489 Pixel_max-F1: 0.446528 Pixel_PRO: 0.687812 
+[utils.py][line:306][INFO] Average: Pixel_AUROC: 0.867755 Pixel_AP: 0.365489 Pixel_max-F1: 0.446528 Pixel_PRO: 0.687812 
+[main.py][line:187][INFO] -------------------------------------------------------------
+[main.py][line:185][INFO] ---------------------------colon------------------------------
+[utils.py][line:302][INFO] Category colon: Pixel_AUROC: 0.832326 Pixel_AP: 0.269291 Pixel_max-F1: 0.365871 Pixel_PRO: 0.665732 
+[utils.py][line:306][INFO] Average: Pixel_AUROC: 0.832326 Pixel_AP: 0.269291 Pixel_max-F1: 0.365871 Pixel_PRO: 0.665732 
+[main.py][line:187][INFO] -------------------------------------------------------------
+[main.py][line:185][INFO] ---------------------------brainmri------------------------------
+[utils.py][line:302][INFO] Category brainmri: Sample_CLS_AUROC: 0.945688 Sample_CLS_AP: 0.960608 Sample_CLS_max-F1: 0.923077 
+[utils.py][line:306][INFO] Average: Sample_CLS_AUROC: 0.945688 Sample_CLS_AP: 0.960608 Sample_CLS_max-F1: 0.923077 
+[main.py][line:187][INFO] -------------------------------------------------------------
+[main.py][line:185][INFO] ---------------------------br35h------------------------------
+[utils.py][line:302][INFO] Category br35h: Sample_CLS_AUROC: 0.955751 Sample_CLS_AP: 0.954239 Sample_CLS_max-F1: 0.901279 
+[utils.py][line:306][INFO] Average: Sample_CLS_AUROC: 0.955751 Sample_CLS_AP: 0.954239 Sample_CLS_max-F1: 0.901279 
+[main.py][line:187][INFO] -------------------------------------------------------------
+[main.py][line:185][INFO] ---------------------------kvasir------------------------------
+[utils.py][line:302][INFO] Category kvasir: Pixel_AUROC: 0.843707 Pixel_AP: 0.457509 Pixel_max-F1: 0.514229 Pixel_PRO: 0.572208 
+[utils.py][line:306][INFO] Average: Pixel_AUROC: 0.843707 Pixel_AP: 0.457509 Pixel_max-F1: 0.514229 Pixel_PRO: 0.572208 
+[main.py][line:187][INFO] -------------------------------------------------------------
+[main.py][line:185][INFO] ---------------------------mvtec2------------------------------
+[utils.py][line:302][INFO] Category can: Sample_CLS_AUROC: 0.470525 Sample_CLS_AP: 0.499398 Sample_CLS_max-F1: 0.714859 Pixel_AUROC: 0.789716 Pixel_AP: 0.000148 Pixel_max-F1: 0.000921 Pixel_PRO: 0.348088 
+[utils.py][line:302][INFO] Category fabric: Sample_CLS_AUROC: 0.474916 Sample_CLS_AP: 0.621039 Sample_CLS_max-F1: 0.731707 Pixel_AUROC: 0.929095 Pixel_AP: 0.116383 Pixel_max-F1: 0.194866 Pixel_PRO: 0.450351 
+[utils.py][line:302][INFO] Category fruit_jelly: Sample_CLS_AUROC: 0.458333 Sample_CLS_AP: 0.768574 Sample_CLS_max-F1: 0.857143 Pixel_AUROC: 0.895027 Pixel_AP: 0.237786 Pixel_max-F1: 0.275654 Pixel_PRO: 0.564718 
+[utils.py][line:302][INFO] Category rice: Sample_CLS_AUROC: 0.757672 Sample_CLS_AP: 0.885038 Sample_CLS_max-F1: 0.830000 Pixel_AUROC: 0.945298 Pixel_AP: 0.282826 Pixel_max-F1: 0.426385 Pixel_PRO: 0.752135 
+[utils.py][line:302][INFO] Category sheet_metal: Sample_CLS_AUROC: 0.733333 Sample_CLS_AP: 0.927090 Sample_CLS_max-F1: 0.882353 Pixel_AUROC: 0.673691 Pixel_AP: 0.048885 Pixel_max-F1: 0.114487 Pixel_PRO: 0.314444 
+[utils.py][line:302][INFO] Category vial: Sample_CLS_AUROC: 0.647075 Sample_CLS_AP: 0.865069 Sample_CLS_max-F1: 0.857143 Pixel_AUROC: 0.916259 Pixel_AP: 0.247800 Pixel_max-F1: 0.302059 Pixel_PRO: 0.872842 
+[utils.py][line:302][INFO] Category wallplugs: Sample_CLS_AUROC: 0.551111 Sample_CLS_AP: 0.651010 Sample_CLS_max-F1: 0.750000 Pixel_AUROC: 0.811255 Pixel_AP: 0.009252 Pixel_max-F1: 0.036882 Pixel_PRO: 0.234658 
+[utils.py][line:302][INFO] Category walnuts: Sample_CLS_AUROC: 0.874074 Sample_CLS_AP: 0.923413 Sample_CLS_max-F1: 0.833333 Pixel_AUROC: 0.927433 Pixel_AP: 0.293121 Pixel_max-F1: 0.339284 Pixel_PRO: 0.603083 
+[utils.py][line:306][INFO] Average: Sample_CLS_AUROC: 0.620880 Sample_CLS_AP: 0.767579 Sample_CLS_max-F1: 0.807067 Pixel_AUROC: 0.860972 Pixel_AP: 0.154525 Pixel_max-F1: 0.211317 Pixel_PRO: 0.517540 
+[main.py][line:187][INFO] -------------------------------------------------------------
