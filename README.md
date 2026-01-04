@@ -7,7 +7,7 @@ Pytorch implementation of Paper "AF-CLIP: Zero-Shot Anomaly Detection via Anomal
 
 please check you dataset dir is like below:
 ```
-├── Br35H
+
 ├── Br35H
 │   ├── no
 │   └── yes
@@ -77,6 +77,19 @@ please check you dataset dir is like below:
 │   │           └── Anomaly
 │   ├── ...
 │   ├── split_csv
+├── mvtec2
+│   ├── can
+│   │   └── test_private
+│   │   └── test_private_mixed
+│   │   └── test_public
+│   │       ├── bad
+│   │       ├── good
+│   │       ├── ground_truth
+│   │   └── train
+│   │       ├── good
+│   │   └── validation
+│   ├── ...
+
 ```
 
 Then change the data path `data_dir` in  `train.sh` or `test.sh` to train or test.
